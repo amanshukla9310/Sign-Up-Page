@@ -1,0 +1,42 @@
+*{
+    margin: 10px;
+    padding: auto;
+    background-color: hsl(193, 58%, 46%);
+    color: white;
+    margin-right: 30%;
+    background-image: linear-gradient(to left, #46976c, #535995);
+    }
+
+
+
+.form-group {
+     margin-bottom: 10px;
+    }
+  
+  label {
+    display: flex;
+    margin: -5px;
+    padding: -5px;
+  
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid hwb(0 3% 97%);
+   
+    
+  }
+  
+  button[type="submit"] {
+    background-color: #05176f;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
